@@ -1,6 +1,9 @@
-# Context App
+# context-app
 
-This project is an exercise for using classes based component with Context, style with Material-UI, 
-PageContent.js created to access html to be able to change backgroundColor
-For writing The Language Context is used HOC;
-creating HOC withLanguageContext which takes diffrent component as argument and returns that same component with all oryginal props and new prop languageContext;
+This project is an exercise for using The Context API with class based components; Made with create-react-app;
+Stages: 
+1. Writing responsive Navbar and Form component(email and password inputs) using JSS and Material UI's, withStyles and Higher Order Component,
+2. Adding two new Contexts, a ThemeContext and a LanguageContext to the application,
+3. Writing own higher order component called withLanuageContext for consuming one of the contexts.
+
+React, Material-UI, JSS, withStyles
