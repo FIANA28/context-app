@@ -12,6 +12,7 @@ import { ThemeContext } from './contexts/ThemeContext';
 
 class Navbar extends Component {
     static contextType = ThemeContext;
+    
     render() {
         const { isDarkMode, toggleTheme } = this.context;
         const { classes } = this.props;
