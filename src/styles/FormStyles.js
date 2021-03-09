@@ -1,4 +1,3 @@
-import { CenterFocusStrong } from "@material-ui/icons";
 
 const styles = theme => ({
     main: {
